@@ -24,3 +24,26 @@ Scope: Entire program.
 2. Local Variables:
 Definition: Variables declared within a function or block. They are only accessible within that function or block.
 Scope: Limited to the function or block where they are declared.
+
+## Codes:-
+ //ashu yadav 
+//Prn: 23070123154  
+//experiment 11: 
+
+#include <iostream>
+using namespace std;
+
+class cube
+{
+    public:
+    int height = 3;
+    int width = 3;
+    int length = 3;
+};
+
+int main()
+{
+    cube c1;
+    int vol = c1.height*c1.width*c1.length;
+    cout<<"volume:"<<vol<<endl;
+}
