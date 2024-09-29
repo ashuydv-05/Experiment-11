@@ -113,6 +113,7 @@ int main() {
 // Ashu yadav
 // Prn: 23070123154
 // Experiment 11:
+#include<iostream>
 using namespace std;
 class cube{
     public:
@@ -180,3 +181,20 @@ int main() {
     return 0;          
 }
 ```
+## Output:- 
+1. ![image](https://github.com/user-attachments/assets/87910c25-d52e-4be0-94ea-4051d400f5cf)
+2. ![image](https://github.com/user-attachments/assets/9744203c-eeda-4bdf-b79c-c87e0e149bc0)
+3. ![image](https://github.com/user-attachments/assets/c2a2316a-5e04-44cc-8aa0-2f4c929f748b)
+4. ![image](https://github.com/user-attachments/assets/46099362-589a-42fd-8711-b00bee95828e)
+5. ![image](https://github.com/user-attachments/assets/98370d69-f26e-4eca-97d3-4247e1a627d9)
+
+
+# Conclusion:-
+1. Classes define the structure and behaviors of objects. They encapsulate data and methods into a single unit.
+2. Objects are instances of classes and hold specific data values.
+3. Access Specifiers (Public, Private, Protected) control how and where class members can be accessed and modified.
+4. Global Variables are accessible throughout the entire program, while Local Variables are restricted to the function or block where they are defined.
+
+
+
+
