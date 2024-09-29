@@ -6,8 +6,10 @@ To study and implement Classes and Objects
 Vs Code
 
 ## Theory:-
-#### Class: A blueprint for creating objects. It defines a data structure by combining data (attributes) and methods (functions) that operate on the data.Class Definition: A class is defined using the class keyword followed by the class name and a block of code that includes its attributes and methods.
-#### Object: An instance of a class. It represents a specific realization of the class, holding actual values for the attributes defined by the class.An object is created by instantiating the class. This involves calling the class as if it were a function. Sure! Here's a detailed explanation of the concepts related to classes and objects, including definitions, syntax, access specifiers, and variable types.
+#### Class:
+A blueprint for creating objects. It defines a data structure by combining data (attributes) and methods (functions) that operate on the data.Class Definition: A class is defined using the class keyword followed by the class name and a block of code that includes its attributes and methods.
+#### Object:
+An instance of a class. It represents a specific realization of the class, holding actual values for the attributes defined by the class.An object is created by instantiating the class. This involves calling the class as if it were a function. Sure! Here's a detailed explanation of the concepts related to classes and objects, including definitions, syntax, access specifiers, and variable types.
 
 #### Access Specifiers Comparison
 Access specifiers determine the visibility and accessibility of class members (attributes and methods).
@@ -182,11 +184,23 @@ int main() {
 }
 ```
 ## Output:- 
-1. ![image](https://github.com/user-attachments/assets/87910c25-d52e-4be0-94ea-4051d400f5cf)
-2. ![image](https://github.com/user-attachments/assets/9744203c-eeda-4bdf-b79c-c87e0e149bc0)
-3. ![image](https://github.com/user-attachments/assets/c2a2316a-5e04-44cc-8aa0-2f4c929f748b)
-4. ![image](https://github.com/user-attachments/assets/46099362-589a-42fd-8711-b00bee95828e)
-5. ![image](https://github.com/user-attachments/assets/98370d69-f26e-4eca-97d3-4247e1a627d9)
+1.
+   ![image](https://github.com/user-attachments/assets/87910c25-d52e-4be0-94ea-4051d400f5cf)
+
+2. 
+ ![image](https://github.com/user-attachments/assets/9744203c-eeda-4bdf-b79c-c87e0e149bc0)
+
+
+3. 
+ ![image](https://github.com/user-attachments/assets/c2a2316a-5e04-44cc-8aa0-2f4c929f748b)
+
+4. 
+
+ ![image](https://github.com/user-attachments/assets/46099362-589a-42fd-8711-b00bee95828e)
+
+5.
+
+ ![image](https://github.com/user-attachments/assets/98370d69-f26e-4eca-97d3-4247e1a627d9)
 
 
 # Conclusion:-
