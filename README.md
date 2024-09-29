@@ -26,6 +26,8 @@ Definition: Variables declared within a function or block. They are only accessi
 Scope: Limited to the function or block where they are declared.
 
 ## Codes:-
+1.
+```
 //ashu
 //Prn: 23070123154 
 //experiment 11: 
@@ -47,3 +49,134 @@ int main()
     int vol = c1.height*c1.width*c1.length;
     cout<<"volume:"<<vol<<endl;
 }
+```
+2.
+```
+   //Ashu yadav 
+//Prn: 23070123154 
+//experiment 11: 
+
+#include <iostream>
+using namespace std;
+
+class cube
+{
+    public:
+    int height = 2;
+    int width = 2;
+    int length = 2;
+    int volume()
+    {
+        int v; 
+        v = height*width*length;
+        return v;
+    }
+};
+
+int main()
+{
+    cube cube1;
+    cout<<"volume: "<<cube1.volume()<<endl;
+}
+```
+3.
+```
+// Ashu yadav
+// Prn: 23070123154 
+// Experiment 11:
+
+#include <iostream>
+using namespace std;
+
+class Cube {
+    private:
+        int height = 4;  
+        int width = 2;   
+        int length = 2; 
+
+    public:
+         
+        double volume() {
+            
+            return static_cast<double>(height * width * length);
+        }
+};
+
+int main() {
+    Cube cube1;  
+    cout << "Volume: " << cube1.volume() << endl;
+    return 0;  
+}
+```
+4. 
+```
+// Ashu yadav
+// Prn: 23070123154
+// Experiment 11:
+using namespace std;
+class cube{
+    public:
+    double height=1.2;
+    double width=2.5;
+    double length=3.8;
+     double volume(){
+     double v;
+     v=height*width*length;
+        return v;
+}
+void disp_vol(double vol){
+    cout<<"Volume:"<<vol<<endl;
+
+}
+};
+int main()
+{
+    cube cube1;
+    double vol=cube1.volume();
+    cube1.disp_vol(vol);
+}
+```
+5. 
+```
+// Ashu yadav
+// Prn: 23070123154
+// Experiment 11:
+
+#include <iostream>
+using namespace std;
+
+class Volume {
+    public:
+        float length;
+        float breadth;
+        float height;
+        
+       
+        void input() {
+            cout << "Enter the value of length: ";
+            cin >> length;
+            cout << "Enter the value of breadth: ";
+            cin >> breadth;
+            cout << "Enter the value of height: ";
+            cin >> height;
+        }
+
+       
+        float vol() {
+            return length * breadth * height;
+        }
+
+      
+        void display() {
+            float volume = vol();
+            cout << "The volume is " << volume << endl;
+        }
+};
+
+int main() {
+    Volume volume1; 
+    volume1.input();  
+    volume1.display(); 
+    return 0;          
+}
+```
